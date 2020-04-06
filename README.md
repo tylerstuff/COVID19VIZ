@@ -1,2 +1,1 @@
 # COVID19VIZ
-Hi!
