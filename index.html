@@ -23,7 +23,25 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+  <style>
+    .ftco-media-1-inner:hover .img-fluid {
+      filter: brightness(50%);
+    }
+    .img-text-block {
+      position: absolute;
+      color: white !important;
+      background-color: black;
+      left: 0;
+      text-align:center;
+      top: 50%;
+      width: 100%;
+      display: none;
+      filter: brightness(100%);
+    }
+    .ftco-media-1-inner:hover .img-text-block {
+      display: block;
+    }
+  </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -115,6 +133,7 @@
             <div class="ftco-media-1">
               <div class="ftco-media-1-inner">
                 <a href="viz-single-Tableau_Active.html" class="d-inline-block mb-4"><img src="images/map_active.jpg" alt="FImageo" class="img-fluid"></a>
+                <p class="img-text-block">Use this geographic map to see active cases spread over time</p>
                 <div class="ftco-media-details">
                   <h3>Active Cases Map with Timeline</h3>
                   <p>Global</p>
@@ -128,6 +147,7 @@
               <div class="ftco-media-1">
                   <div class="ftco-media-1-inner">
                     <a href="viz-single-D3_race_chart.html" class="d-inline-block mb-4"><img src="images/race_chart_active.jpg" alt="Image" class="img-fluid"></a>
+                    <p class="img-text-block">Using the popular race chart, see which countries were hit the worst over time</p>
                     <div class="ftco-media-details">
                       <h3>Race Map of Active Cases</h3>
                       <p>Global</p>
@@ -141,6 +161,7 @@
               <div class="ftco-media-1">
                   <div class="ftco-media-1-inner">
                     <a href="viz-single-Tableau_Active_Area.html" class="d-inline-block mb-4"><img src="images/area_chart_active.jpg" alt="Image" class="img-fluid"></a>
+                    <p class="img-text-block">Use this chart to compare the active cases for all countries at any given point in time</p>
                     <div class="ftco-media-details">
                       <h3>Area Plot Timeline of Active Cases</h3>
                       <p>Global</p>
@@ -155,6 +176,7 @@
               <div class="ftco-media-1">
                 <div class="ftco-media-1-inner">
                   <a href="viz-single.html" class="d-inline-block mb-4"><img src="images/growth_rate_chart.jpg" alt="Image" class="img-fluid"></a>
+                  <p class="img-text-block">See total infection cases over time for the whole world</p>
                   <div class="ftco-media-details">
                     <h3>Growth Rate</h3>
                     <p>Global</p>
@@ -168,6 +190,7 @@
                 <div class="ftco-media-1">
                     <div class="ftco-media-1-inner">
                       <a href="viz-single.html" class="d-inline-block mb-4"><img src="images/velocity_chart.jpg" alt="FImageo" class="img-fluid"></a>
+                      <p class="img-text-block">Coming soon, this chart is not available yet</p>
                       <div class="ftco-media-details">
                         <h3>Velocity Chart</h3>
                         <p>Global</p>
@@ -181,6 +204,7 @@
                 <div class="ftco-media-1">
                     <div class="ftco-media-1-inner">
                       <a href="viz-single-Spread-map.html" class="d-inline-block mb-4"><img src="images/spread_map.jpg" alt="Image" class="img-fluid"></a>
+                      <p class="img-text-block">See spread patterns for Singapore for record patients between Jan - Mar</p>
                       <div class="ftco-media-details">
                         <h3>Spread Map</h3>
                         <p>Singapore</p>
