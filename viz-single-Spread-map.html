@@ -33,21 +33,21 @@
         .dot-yellow {
             height: 25px;
             width: 25px;
-            background-color: yellow;
+            background-color: #F9B43F;
             border-radius: 50%;
             display: block;
         }
         .dot-green {
             height: 25px;
             width: 25px;
-            background-color: rgb(0, 255, 0);
+            background-color: #009688;
             border-radius: 50%;
             display: block;
         }
         .dot-red {
             height: 25px;
             width: 25px;
-            background-color: red;
+            background-color: #AE123A;
             border-radius: 50%;
             display: block;
         }
@@ -142,7 +142,7 @@ var max_score = 1;
 
 var color = d3.scale.linear()
   .domain([min_score, (min_score+max_score)/2, max_score])
-  .range(["lime", "yellow", "red"]);
+  .range(["#009688", "#F9B43F", "#AE123A"]);
 
 var highlight_color = "blue";
 var highlight_trans = 0.1;
